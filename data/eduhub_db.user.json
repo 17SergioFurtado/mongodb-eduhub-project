@@ -1,0 +1,816 @@
+[{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbaf"
+  },
+  "userId": 1,
+  "email": "alice.student@example.com",
+  "firstName": "Alice",
+  "lastName": "Johnson",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-15T10:00:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning Data Engineering",
+    "avatar": "https://avatarlink.com/avatar.png",
+    "skills": [
+      "SQL",
+      "Python"
+    ]
+  },
+  "isActive": false,
+  "updatedAt": {
+    "$date": "2025-10-05T18:37:13.671Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb0"
+  },
+  "userId": 2,
+  "email": "bob.student@example.com",
+  "firstName": "Bob",
+  "lastName": "Smith",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-10T09:30:00.000Z"
+  },
+  "profile": {
+    "bio": "Front-end enthusiast",
+    "avatar": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-18T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb1"
+  },
+  "userId": 3,
+  "email": "carol.student@example.com",
+  "firstName": "Carol",
+  "lastName": "Davis",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-01T08:45:00.000Z"
+  },
+  "profile": {
+    "bio": "Data Science beginner",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Statistics"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-15T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb2"
+  },
+  "userId": 4,
+  "email": "david.student@example.com",
+  "firstName": "David",
+  "lastName": "Wilson",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-20T10:15:00.000Z"
+  },
+  "profile": {
+    "bio": "AI hobbyist",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T09:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb3"
+  },
+  "userId": 5,
+  "email": "emma.student@example.com",
+  "firstName": "Emma",
+  "lastName": "Taylor",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-25T11:00:00.000Z"
+  },
+  "profile": {
+    "bio": "Web developer in training",
+    "avatar": "",
+    "skills": [
+      "HTML",
+      "CSS"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T12:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb4"
+  },
+  "userId": 6,
+  "email": "frank.student@example.com",
+  "firstName": "Frank",
+  "lastName": "Anderson",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-10T09:30:00.000Z"
+  },
+  "profile": {
+    "bio": "Interested in DevOps",
+    "avatar": "",
+    "skills": [
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T11:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb5"
+  },
+  "userId": 7,
+  "email": "grace.student@example.com",
+  "firstName": "Grace",
+  "lastName": "Thomas",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-28T10:00:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning backend development",
+    "avatar": "",
+    "skills": [
+      "Node.js",
+      "Express"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb6"
+  },
+  "userId": 8,
+  "email": "henry.student@example.com",
+  "firstName": "Henry",
+  "lastName": "Moore",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-05T09:00:00.000Z"
+  },
+  "profile": {
+    "bio": "Database enthusiast",
+    "avatar": "",
+    "skills": [
+      "SQL",
+      "PostgreSQL"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-18T11:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb7"
+  },
+  "userId": 9,
+  "email": "isabel.student@example.com",
+  "firstName": "Isabel",
+  "lastName": "Martin",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-12T08:30:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning AI",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "TensorFlow"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T09:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb8"
+  },
+  "userId": 10,
+  "email": "jack.student@example.com",
+  "firstName": "Jack",
+  "lastName": "Lee",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-18T10:20:00.000Z"
+  },
+  "profile": {
+    "bio": "Cloud computing beginner",
+    "avatar": "",
+    "skills": [
+      "AWS",
+      "Azure"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T10:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbb9"
+  },
+  "userId": 11,
+  "email": "kate.student@example.com",
+  "firstName": "Kate",
+  "lastName": "Perez",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-22T11:10:00.000Z"
+  },
+  "profile": {
+    "bio": "Cybersecurity enthusiast",
+    "avatar": "",
+    "skills": [
+      "Network Security",
+      "Linux"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbba"
+  },
+  "userId": 12,
+  "email": "leo.student@example.com",
+  "firstName": "Leo",
+  "lastName": "Harris",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-05T09:50:00.000Z"
+  },
+  "profile": {
+    "bio": "Loves Python scripting",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Automation"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-18T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbbb"
+  },
+  "userId": 13,
+  "email": "mia.student@example.com",
+  "firstName": "Mia",
+  "lastName": "Clark",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-30T10:05:00.000Z"
+  },
+  "profile": {
+    "bio": "Full-stack web developer",
+    "avatar": "",
+    "skills": [
+      "React",
+      "Node.js"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T11:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbbc"
+  },
+  "userId": 14,
+  "email": "nick.student@example.com",
+  "firstName": "Nick",
+  "lastName": "Lewis",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-12T09:40:00.000Z"
+  },
+  "profile": {
+    "bio": "Interested in DevOps",
+    "avatar": "",
+    "skills": [
+      "Docker",
+      "CI/CD"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T12:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbbd"
+  },
+  "userId": 15,
+  "email": "olivia.student@example.com",
+  "firstName": "Olivia",
+  "lastName": "Walker",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-07T08:50:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning Data Science",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Pandas"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T10:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbbe"
+  },
+  "userId": 16,
+  "email": "paul.student@example.com",
+  "firstName": "Paul",
+  "lastName": "Hall",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-25T10:30:00.000Z"
+  },
+  "profile": {
+    "bio": "Interested in AI",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Keras"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T12:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbbf"
+  },
+  "userId": 17,
+  "email": "queen.instructor@example.com",
+  "firstName": "Queen",
+  "lastName": "Allen",
+  "role": "instructor",
+  "joinedAt": {
+    "$date": "2022-12-10T09:00:00.000Z"
+  },
+  "profile": {
+    "bio": "Expert in Python",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Data Science"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-15T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc0"
+  },
+  "userId": 18,
+  "email": "roger.instructor@example.com",
+  "firstName": "Roger",
+  "lastName": "Young",
+  "role": "instructor",
+  "joinedAt": {
+    "$date": "2022-11-05T08:30:00.000Z"
+  },
+  "profile": {
+    "bio": "Web development instructor",
+    "avatar": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-18T11:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc1"
+  },
+  "userId": 19,
+  "email": "sophia.instructor@example.com",
+  "firstName": "Sophia",
+  "lastName": "King",
+  "role": "instructor",
+  "joinedAt": {
+    "$date": "2022-12-15T09:15:00.000Z"
+  },
+  "profile": {
+    "bio": "AI and ML instructor",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Machine Learning"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc2"
+  },
+  "userId": 20,
+  "email": "tom.instructor@example.com",
+  "firstName": "Tom",
+  "lastName": "Scott",
+  "role": "instructor",
+  "joinedAt": {
+    "$date": "2022-12-20T08:45:00.000Z"
+  },
+  "profile": {
+    "bio": "Cloud computing instructor",
+    "avatar": "",
+    "skills": [
+      "AWS",
+      "Azure"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T11:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc3"
+  },
+  "userId": 21,
+  "email": "uma.student@example.com",
+  "firstName": "Uma",
+  "lastName": "Adams",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-01T10:10:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning front-end",
+    "avatar": "",
+    "skills": [
+      "React",
+      "CSS"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T10:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc4"
+  },
+  "userId": 22,
+  "email": "victor.student@example.com",
+  "firstName": "Victor",
+  "lastName": "Baker",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-18T09:35:00.000Z"
+  },
+  "profile": {
+    "bio": "Backend beginner",
+    "avatar": "",
+    "skills": [
+      "Node.js",
+      "Express"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T11:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc5"
+  },
+  "userId": 23,
+  "email": "wendy.student@example.com",
+  "firstName": "Wendy",
+  "lastName": "Carter",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-03T08:55:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning DevOps",
+    "avatar": "",
+    "skills": [
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T12:40:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc6"
+  },
+  "userId": 24,
+  "email": "xander.student@example.com",
+  "firstName": "Xander",
+  "lastName": "Evans",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-27T10:20:00.000Z"
+  },
+  "profile": {
+    "bio": "Database learner",
+    "avatar": "",
+    "skills": [
+      "SQL",
+      "PostgreSQL"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-18T10:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc7"
+  },
+  "userId": 25,
+  "email": "yara.student@example.com",
+  "firstName": "Yara",
+  "lastName": "Foster",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-08T09:50:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning AI",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "TensorFlow"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T11:25:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc8"
+  },
+  "userId": 26,
+  "email": "zane.student@example.com",
+  "firstName": "Zane",
+  "lastName": "Green",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-11T08:40:00.000Z"
+  },
+  "profile": {
+    "bio": "Python and ML beginner",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "ML"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbc9"
+  },
+  "userId": 27,
+  "email": "amy.student@example.com",
+  "firstName": "Amy",
+  "lastName": "Hughes",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-19T10:05:00.000Z"
+  },
+  "profile": {
+    "bio": "Interested in cybersecurity",
+    "avatar": "",
+    "skills": [
+      "Network Security",
+      "Linux"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T10:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbca"
+  },
+  "userId": 28,
+  "email": "brian.student@example.com",
+  "firstName": "Brian",
+  "lastName": "Irwin",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-28T09:20:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning cloud computing",
+    "avatar": "",
+    "skills": [
+      "AWS",
+      "Azure"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T11:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbcb"
+  },
+  "userId": 29,
+  "email": "chloe.student@example.com",
+  "firstName": "Chloe",
+  "lastName": "Jones",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-06T08:50:00.000Z"
+  },
+  "profile": {
+    "bio": "Data science enthusiast",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Pandas"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T12:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbcc"
+  },
+  "userId": 30,
+  "email": "daniel.student@example.com",
+  "firstName": "Daniel",
+  "lastName": "Kelly",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-01-23T10:25:00.000Z"
+  },
+  "profile": {
+    "bio": "Interested in AI and ML",
+    "avatar": "",
+    "skills": [
+      "Python",
+      "Keras"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-20T10:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbcd"
+  },
+  "userId": 31,
+  "email": "ella.student@example.com",
+  "firstName": "Ella",
+  "lastName": "Lopez",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-02-14T09:40:00.000Z"
+  },
+  "profile": {
+    "bio": "Front-end learner",
+    "avatar": "",
+    "skills": [
+      "HTML",
+      "CSS",
+      "React"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-19T11:10:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbce"
+  },
+  "userId": 32,
+  "email": "fred.student@example.com",
+  "firstName": "Fred",
+  "lastName": "Morris",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2023-03-09T08:35:00.000Z"
+  },
+  "profile": {
+    "bio": "Learning backend development",
+    "avatar": "",
+    "skills": [
+      "Node.js",
+      "Express"
+    ]
+  },
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2023-09-21T12:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c7cbcd8c2d8fd373bc6a"
+  },
+  "userId": 33,
+  "firstName": "antonio",
+  "lastName": "furtado",
+  "email": "antonio.student@example.com",
+  "role": "student",
+  "joinedAt": {
+    "$date": "2025-10-05T18:32:27.593Z"
+  }
+}]

@@ -1,0 +1,54 @@
+{
+    "bsonType": "object",
+    "required": [
+        "assignmentId",
+        "lessonId",
+        "courseId",
+        "title",
+        "createdAt"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId",
+            "description": "Unique MongoDB identifier for the assignment document."
+        },
+        "assignmentId": {
+            "bsonType": "int",
+            "description": "Custom numeric identifier for the assignment."
+        },
+        "lessonId": {
+            "bsonType": "int",
+            "description": "Identifier linking this assignment to its related lesson."
+        },
+        "courseId": {
+            "bsonType": "int",
+            "description": "Identifier linking this assignment to its parent course."
+        },
+        "title": {
+            "bsonType": "string",
+            "description": "Title or name of the assignment."
+        },
+        "description": {
+            "bsonType": "string",
+            "description": "Detailed explanation or instructions for the assignment."
+        },
+        "dueDate": {
+            "bsonType": "date",
+            "description": "The date and time when the assignment is due."
+        },
+        "isActive": {
+            "bsonType": "bool",
+            "description": "Indicates whether the assignment is currently active or not."
+        },
+        "createdAt": {
+            "bsonType": "date",
+            "description": "Timestamp when the assignment was created."
+        },
+        "updatedAt": {
+            "bsonType": "date",
+            "description": "Timestamp when the assignment was last updated."
+        }
+    },
+    "additionalProperties": false,
+    "description": "Schema definition for the Assignments collection, representing tasks linked to lessons within a course."
+}

@@ -1,0 +1,84 @@
+{
+    "bsonType": "object",
+    "required": [
+        "enrollmentId",
+        "courseId",
+        "studentId",
+        "createdAt"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId",
+            "description": "Unique MongoDB identifier for the enrollment document."
+        },
+        "enrollmentId": {
+            "bsonType": "int",
+            "description": "Custom numeric ID representing this enrollment record."
+        },
+        "courseId": {
+            "bsonType": "int",
+            "description": "ID of the course that the student is enrolled in."
+        },
+        "studentId": {
+            "bsonType": "int",
+            "description": "ID of the student who is enrolled in the course."
+        },
+        "isActive": {
+            "bsonType": "bool",
+            "description": "Indicates whether the enrollment is currently active or inactive."
+        },
+        "completionStatus": {
+            "bsonType": "string",
+            "enum": [
+                "not_started",
+                "in_progress",
+                "completed"
+            ],
+            "description": "Tracks the overall progress of the student in the course."
+        },
+        "trackProgress": {
+            "bsonType": "int",
+            "description": "Numeric percentage (0–100) showing how much of the course has been completed."
+        },
+        "attendance": {
+            "bsonType": "array",
+            "description": "List of lessons attended or completed by the student for this course enrollment.",
+            "items": {
+                "bsonType": "object",
+                "required": [
+                    "lessonId",
+                    "hasFinished",
+                    "attendedAt"
+                ],
+                "properties": {
+                    "lessonId": {
+                        "bsonType": "int",
+                        "description": "Unique ID of the lesson."
+                    },
+                    "hasFinished": {
+                        "bsonType": "bool",
+                        "description": "Indicates if the student has completed this specific lesson."
+                    },
+                    "attendedAt": {
+                        "bsonType": "date",
+                        "description": "Timestamp when the student attended or completed the lesson."
+                    }
+                }
+            }
+        },
+        "completionDate": {
+            "bsonType": ["date", "null"],
+            "description": "Date when the student completed the entire course, if applicable."
+        },
+        "createdAt": {
+            "bsonType": "date",
+            "description": "Timestamp when this enrollment record was created."
+        },
+        "updatedAt": {
+            "bsonType": "date",
+            "description": "Timestamp when this enrollment record was last updated."
+        }
+    },
+    "additionalProperties": false,
+    "description": "Schema definition for the Enrollments collection, which records student-course associations, progress, and attendance."
+}

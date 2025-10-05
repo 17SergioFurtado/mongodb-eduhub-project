@@ -1,0 +1,300 @@
+[{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc27"
+  },
+  "assignmentId": 1,
+  "lessonId": 1,
+  "courseId": 1,
+  "title": "Python Setup Assignment",
+  "description": "Install Python and run your first script.",
+  "dueDate": {
+    "$date": "2023-01-05T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc28"
+  },
+  "assignmentId": 2,
+  "lessonId": 2,
+  "courseId": 1,
+  "title": "Variables and Data Types",
+  "description": "Create variables of different types.",
+  "dueDate": {
+    "$date": "2023-01-06T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-02T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-02T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc29"
+  },
+  "assignmentId": 3,
+  "lessonId": 3,
+  "courseId": 2,
+  "title": "HTML Structure Assignment",
+  "description": "Build a basic HTML page with headings and paragraphs.",
+  "dueDate": {
+    "$date": "2023-01-07T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-03T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc2a"
+  },
+  "assignmentId": 4,
+  "lessonId": 4,
+  "courseId": 2,
+  "title": "CSS Styling Assignment",
+  "description": "Style your HTML page using CSS.",
+  "dueDate": {
+    "$date": "2023-01-08T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-04T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-04T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc2b"
+  },
+  "assignmentId": 5,
+  "lessonId": 5,
+  "courseId": 3,
+  "title": "JavaScript Functions",
+  "description": "Write JS functions to handle basic operations.",
+  "dueDate": {
+    "$date": "2023-01-09T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-05T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc2c"
+  },
+  "assignmentId": 6,
+  "lessonId": 6,
+  "courseId": 3,
+  "title": "DOM Manipulation Task",
+  "description": "Change HTML content using JS DOM methods.",
+  "dueDate": {
+    "$date": "2023-01-10T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc2d"
+  },
+  "assignmentId": 7,
+  "lessonId": 7,
+  "courseId": 4,
+  "title": "Basic SQL Queries",
+  "description": "Write SELECT queries to fetch data from tables.",
+  "dueDate": {
+    "$date": "2023-01-11T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-07T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-07T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc2e"
+  },
+  "assignmentId": 8,
+  "lessonId": 8,
+  "courseId": 4,
+  "title": "SQL Joins Assignment",
+  "description": "Use INNER, LEFT, and RIGHT joins on sample tables.",
+  "dueDate": {
+    "$date": "2023-01-12T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-08T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-08T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc2f"
+  },
+  "assignmentId": 9,
+  "lessonId": 9,
+  "courseId": 5,
+  "title": "Git Init and Commit",
+  "description": "Initialize a repo and make your first commits.",
+  "dueDate": {
+    "$date": "2023-01-13T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-09T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-09T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc30"
+  },
+  "assignmentId": 10,
+  "lessonId": 10,
+  "courseId": 5,
+  "title": "Git Branching Exercise",
+  "description": "Create and merge branches in Git.",
+  "dueDate": {
+    "$date": "2023-01-14T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-10T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc31"
+  },
+  "assignmentId": 11,
+  "lessonId": 11,
+  "courseId": 6,
+  "title": "Dockerfile Creation",
+  "description": "Create a Dockerfile and build an image.",
+  "dueDate": {
+    "$date": "2023-01-15T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-11T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-11T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc32"
+  },
+  "assignmentId": 12,
+  "lessonId": 12,
+  "courseId": 6,
+  "title": "Docker Compose File",
+  "description": "Set up a multi-container application using Docker Compose.",
+  "dueDate": {
+    "$date": "2023-01-16T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-12T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc33"
+  },
+  "assignmentId": 13,
+  "lessonId": 13,
+  "courseId": 7,
+  "title": "OOP Class Design",
+  "description": "Design classes using inheritance and encapsulation.",
+  "dueDate": {
+    "$date": "2023-01-17T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-13T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-13T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc34"
+  },
+  "assignmentId": 14,
+  "lessonId": 14,
+  "courseId": 7,
+  "title": "Polymorphism Exercise",
+  "description": "Implement polymorphism in a small program.",
+  "dueDate": {
+    "$date": "2023-01-18T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-14T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-14T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc35"
+  },
+  "assignmentId": 15,
+  "lessonId": 15,
+  "courseId": 8,
+  "title": "API REST Assignment",
+  "description": "Build a simple REST API with GET and POST endpoints.",
+  "dueDate": {
+    "$date": "2023-01-19T23:59:00.000Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-15T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T10:00:00.000Z"
+  }
+}]

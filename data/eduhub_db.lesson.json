@@ -1,0 +1,694 @@
+[{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbff"
+  },
+  "lessonId": 1,
+  "courseId": 1,
+  "title": "Intro to Python",
+  "description": "Python basics, syntax and setup.",
+  "assignmentId": 1,
+  "isActive": false,
+  "createdAt": {
+    "$date": "2023-01-01T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-05T18:37:27.787Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc00"
+  },
+  "lessonId": 2,
+  "courseId": 1,
+  "title": "Data Types and Variables",
+  "description": "Understanding Python data types.",
+  "assignmentId": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-02T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-02T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc01"
+  },
+  "lessonId": 3,
+  "courseId": 2,
+  "title": "HTML Basics",
+  "description": "Intro to HTML and structure of web pages.",
+  "assignmentId": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-03T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-03T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc02"
+  },
+  "lessonId": 4,
+  "courseId": 2,
+  "title": "CSS Basics",
+  "description": "Styling web pages with CSS.",
+  "assignmentId": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-04T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-04T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc03"
+  },
+  "lessonId": 5,
+  "courseId": 3,
+  "title": "JavaScript Fundamentals",
+  "description": "Variables, functions and events in JS.",
+  "assignmentId": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-05T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc04"
+  },
+  "lessonId": 6,
+  "courseId": 3,
+  "title": "DOM Manipulation",
+  "description": "Selecting and modifying HTML elements.",
+  "assignmentId": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc05"
+  },
+  "lessonId": 7,
+  "courseId": 4,
+  "title": "SQL Basics",
+  "description": "Introduction to SQL queries.",
+  "assignmentId": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-07T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-07T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc06"
+  },
+  "lessonId": 8,
+  "courseId": 4,
+  "title": "Joins and Aggregation",
+  "description": "Advanced SQL queries.",
+  "assignmentId": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-08T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-08T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc07"
+  },
+  "lessonId": 9,
+  "courseId": 5,
+  "title": "Git Basics",
+  "description": "Version control introduction.",
+  "assignmentId": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-09T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-09T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc08"
+  },
+  "lessonId": 10,
+  "courseId": 5,
+  "title": "Git Branching",
+  "description": "Working with branches in Git.",
+  "assignmentId": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-10T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc09"
+  },
+  "lessonId": 11,
+  "courseId": 6,
+  "title": "Docker Introduction",
+  "description": "Containers and Docker basics.",
+  "assignmentId": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-11T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-11T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc0a"
+  },
+  "lessonId": 12,
+  "courseId": 6,
+  "title": "Docker Compose",
+  "description": "Managing multi-container apps.",
+  "assignmentId": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-12T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-12T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc0b"
+  },
+  "lessonId": 13,
+  "courseId": 7,
+  "title": "Python OOP",
+  "description": "Object-oriented programming concepts.",
+  "assignmentId": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-13T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-13T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc0c"
+  },
+  "lessonId": 14,
+  "courseId": 7,
+  "title": "Advanced OOP",
+  "description": "Inheritance, polymorphism, and encapsulation.",
+  "assignmentId": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-14T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-14T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc0d"
+  },
+  "lessonId": 15,
+  "courseId": 8,
+  "title": "REST APIs Intro",
+  "description": "Building RESTful services.",
+  "assignmentId": 15,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-15T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc0e"
+  },
+  "lessonId": 16,
+  "courseId": 8,
+  "title": "API Security",
+  "description": "Authentication and authorization.",
+  "assignmentId": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-16T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-16T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc0f"
+  },
+  "lessonId": 17,
+  "courseId": 9,
+  "title": "Cloud Basics",
+  "description": "Intro to cloud computing.",
+  "assignmentId": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-17T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-17T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc10"
+  },
+  "lessonId": 18,
+  "courseId": 9,
+  "title": "AWS Services",
+  "description": "Core AWS services overview.",
+  "assignmentId": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-18T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-18T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc11"
+  },
+  "lessonId": 19,
+  "courseId": 10,
+  "title": "Kubernetes Intro",
+  "description": "Containers orchestration basics.",
+  "assignmentId": 19,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-19T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-19T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc12"
+  },
+  "lessonId": 20,
+  "courseId": 10,
+  "title": "K8s Deployments",
+  "description": "Managing deployments in Kubernetes.",
+  "assignmentId": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-20T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-20T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc13"
+  },
+  "lessonId": 21,
+  "courseId": 11,
+  "title": "Data Analysis Intro",
+  "description": "Analyzing data with Pandas.",
+  "assignmentId": 21,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-21T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-21T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc14"
+  },
+  "lessonId": 22,
+  "courseId": 11,
+  "title": "Data Visualization",
+  "description": "Creating charts with matplotlib.",
+  "assignmentId": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-22T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-22T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc15"
+  },
+  "lessonId": 23,
+  "courseId": 12,
+  "title": "Machine Learning Intro",
+  "description": "Supervised and unsupervised learning.",
+  "assignmentId": 23,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-23T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-23T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc16"
+  },
+  "lessonId": 24,
+  "courseId": 12,
+  "title": "ML Algorithms",
+  "description": "Regression, classification, clustering.",
+  "assignmentId": 24,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-24T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-24T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc17"
+  },
+  "lessonId": 25,
+  "courseId": 13,
+  "title": "Big Data Overview",
+  "description": "Introduction to Big Data concepts.",
+  "assignmentId": 25,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-25T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-25T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc18"
+  },
+  "lessonId": 26,
+  "courseId": 13,
+  "title": "Hadoop Basics",
+  "description": "Hadoop ecosystem and architecture.",
+  "assignmentId": 26,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-26T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-26T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc19"
+  },
+  "lessonId": 27,
+  "courseId": 14,
+  "title": "NoSQL Intro",
+  "description": "Key concepts of NoSQL databases.",
+  "assignmentId": 27,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-27T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-27T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc1a"
+  },
+  "lessonId": 28,
+  "courseId": 14,
+  "title": "MongoDB Basics",
+  "description": "CRUD operations and aggregation.",
+  "assignmentId": 28,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-28T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-28T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc1b"
+  },
+  "lessonId": 29,
+  "courseId": 15,
+  "title": "Python Data Science",
+  "description": "Using Python for data analysis.",
+  "assignmentId": 29,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-29T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-29T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc1c"
+  },
+  "lessonId": 30,
+  "courseId": 15,
+  "title": "Data Science Project",
+  "description": "Hands-on project for data science.",
+  "assignmentId": 30,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-01-30T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-30T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc1d"
+  },
+  "lessonId": 31,
+  "courseId": 1,
+  "title": "Python Functions",
+  "description": "Defining and using functions in Python.",
+  "assignmentId": 31,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-01T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc1e"
+  },
+  "lessonId": 32,
+  "courseId": 2,
+  "title": "Forms in HTML",
+  "description": "Creating interactive forms.",
+  "assignmentId": 32,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-02T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-02T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc1f"
+  },
+  "lessonId": 33,
+  "courseId": 3,
+  "title": "Events in JavaScript",
+  "description": "Handling user interactions.",
+  "assignmentId": 33,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-03T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-03T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc20"
+  },
+  "lessonId": 34,
+  "courseId": 4,
+  "title": "Indexes in SQL",
+  "description": "Creating and using indexes for performance.",
+  "assignmentId": 34,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-04T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-04T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc21"
+  },
+  "lessonId": 35,
+  "courseId": 5,
+  "title": "Git Merge Conflicts",
+  "description": "Resolving conflicts in Git.",
+  "assignmentId": 35,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-05T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-05T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc22"
+  },
+  "lessonId": 36,
+  "courseId": 6,
+  "title": "Docker Networking",
+  "description": "Managing networks in Docker.",
+  "assignmentId": 36,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-06T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-06T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc23"
+  },
+  "lessonId": 37,
+  "courseId": 7,
+  "title": "OOP Design Patterns",
+  "description": "Common patterns in software design.",
+  "assignmentId": 37,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-07T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-07T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc24"
+  },
+  "lessonId": 38,
+  "courseId": 8,
+  "title": "API Testing",
+  "description": "Testing REST APIs with Postman.",
+  "assignmentId": 38,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-08T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-08T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc25"
+  },
+  "lessonId": 39,
+  "courseId": 9,
+  "title": "Cloud Security",
+  "description": "Best practices for securing cloud services.",
+  "assignmentId": 39,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-09T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-09T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc26"
+  },
+  "lessonId": 40,
+  "courseId": 10,
+  "title": "Kubernetes Services",
+  "description": "Exposing applications with services.",
+  "assignmentId": 40,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2023-02-10T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-02-10T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c876cd8c2d8fd373bc6d"
+  },
+  "lessonId": 41,
+  "courseId": 21,
+  "title": "Advanced Python Functions",
+  "description": "Deep dive into functions, closures, and decorators in Python.",
+  "assignmentId": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-10-05T18:35:18.870Z"
+  }
+}]

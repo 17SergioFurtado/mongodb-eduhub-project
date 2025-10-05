@@ -1,0 +1,461 @@
+[{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbcf"
+  },
+  "courseId": 1,
+  "title": "Introduction to Python",
+  "description": "Learn the basics of Python programming.",
+  "instructorId": 17,
+  "category": "Programming",
+  "difficultyLevel": "beginner",
+  "duration": 20,
+  "price": 49.99,
+  "tags": [
+    "python",
+    "programming",
+    "basics",
+    "backend"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.5,
+  "createdAt": {
+    "$date": "2023-01-10T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-05T18:37:06.231Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd0"
+  },
+  "courseId": 2,
+  "title": "Advanced Python",
+  "description": "Master advanced Python concepts and best practices.",
+  "instructorId": 18,
+  "category": "Programming",
+  "difficultyLevel": "advanced",
+  "duration": 35,
+  "price": 99.99,
+  "tags": [
+    "python",
+    "advanced",
+    "OOP"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.8,
+  "createdAt": {
+    "$date": "2023-02-15T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-20T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd1"
+  },
+  "courseId": 3,
+  "title": "Data Science Basics",
+  "description": "Introduction to data science, statistics, and visualization.",
+  "instructorId": 19,
+  "category": "Data Science",
+  "difficultyLevel": "beginner",
+  "duration": 25,
+  "price": 59.99,
+  "tags": [
+    "data science",
+    "statistics",
+    "visualization"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.6,
+  "createdAt": {
+    "$date": "2023-03-01T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-15T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd2"
+  },
+  "courseId": 4,
+  "title": "Machine Learning A-Z",
+  "description": "Learn machine learning algorithms from scratch.",
+  "instructorId": 20,
+  "category": "Data Science",
+  "difficultyLevel": "intermidiate",
+  "duration": 40,
+  "price": 129.99,
+  "tags": [
+    "machine learning",
+    "python",
+    "AI"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.7,
+  "createdAt": {
+    "$date": "2023-03-10T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-01T15:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd3"
+  },
+  "courseId": 5,
+  "title": "Web Development with HTML, CSS, JS",
+  "description": "Build interactive websites using HTML, CSS, and JavaScript.",
+  "instructorId": 17,
+  "category": "Web Development",
+  "difficultyLevel": "beginner",
+  "duration": 30,
+  "price": 79.99,
+  "tags": [
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.3,
+  "createdAt": {
+    "$date": "2023-01-20T08:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-25T13:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd4"
+  },
+  "courseId": 6,
+  "title": "React for Beginners",
+  "description": "Learn how to build dynamic front-end applications using React.",
+  "instructorId": 18,
+  "category": "Web Development",
+  "difficultyLevel": "beginner",
+  "duration": 28,
+  "price": 89.99,
+  "tags": [
+    "react",
+    "javascript",
+    "frontend"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.4,
+  "createdAt": {
+    "$date": "2023-02-05T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T12:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd5"
+  },
+  "courseId": 7,
+  "title": "Node.js and Express",
+  "description": "Server-side development with Node.js and Express.",
+  "instructorId": 19,
+  "category": "Backend Development",
+  "difficultyLevel": "intermidiate",
+  "duration": 32,
+  "price": 99.99,
+  "tags": [
+    "nodejs",
+    "express",
+    "backend"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.5,
+  "createdAt": {
+    "$date": "2023-03-01T09:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-10T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd6"
+  },
+  "courseId": 8,
+  "title": "Docker Essentials",
+  "description": "Learn containerization concepts and Docker fundamentals.",
+  "instructorId": 20,
+  "category": "DevOps",
+  "difficultyLevel": "beginner",
+  "duration": 18,
+  "price": 59.99,
+  "tags": [
+    "docker",
+    "containers",
+    "devops"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.2,
+  "createdAt": {
+    "$date": "2023-01-25T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-30T13:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd7"
+  },
+  "courseId": 9,
+  "title": "Kubernetes for Beginners",
+  "description": "Introduction to Kubernetes and container orchestration.",
+  "instructorId": 17,
+  "category": "DevOps",
+  "difficultyLevel": "intermidiate",
+  "duration": 25,
+  "price": 79.99,
+  "tags": [
+    "kubernetes",
+    "containers",
+    "orchestration"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.3,
+  "createdAt": {
+    "$date": "2023-02-15T09:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-20T12:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd8"
+  },
+  "courseId": 10,
+  "title": "SQL for Beginners",
+  "description": "Learn to query databases using SQL.",
+  "instructorId": 18,
+  "category": "Database",
+  "difficultyLevel": "beginner",
+  "duration": 20,
+  "price": 49.99,
+  "tags": [
+    "sql",
+    "database",
+    "query"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.4,
+  "createdAt": {
+    "$date": "2023-01-12T08:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-05-15T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbd9"
+  },
+  "courseId": 11,
+  "title": "PostgreSQL Advanced",
+  "description": "Advanced PostgreSQL features and optimization techniques.",
+  "instructorId": 19,
+  "category": "Database",
+  "difficultyLevel": "advanced",
+  "duration": 30,
+  "price": 99.99,
+  "tags": [
+    "postgresql",
+    "database",
+    "advanced"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.6,
+  "createdAt": {
+    "$date": "2023-03-01T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-25T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbda"
+  },
+  "courseId": 12,
+  "title": "Introduction to AI",
+  "description": "Basic concepts and applications of Artificial Intelligence.",
+  "instructorId": 20,
+  "category": "AI",
+  "difficultyLevel": "beginner",
+  "duration": 22,
+  "price": 69.99,
+  "tags": [
+    "AI",
+    "artificial intelligence",
+    "machine learning"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.3,
+  "createdAt": {
+    "$date": "2023-02-01T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-05T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbdb"
+  },
+  "courseId": 13,
+  "title": "Advanced AI Techniques",
+  "description": "Deep dive into AI algorithms and neural networks.",
+  "instructorId": 17,
+  "category": "AI",
+  "difficultyLevel": "advanced",
+  "duration": 40,
+  "price": 149.99,
+  "tags": [
+    "AI",
+    "neural networks",
+    "deep learning"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.7,
+  "createdAt": {
+    "$date": "2023-03-15T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-05T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbdc"
+  },
+  "courseId": 14,
+  "title": "Cloud Computing Basics",
+  "description": "Learn the fundamentals of cloud services and architecture.",
+  "instructorId": 18,
+  "category": "Cloud",
+  "difficultyLevel": "beginner",
+  "duration": 18,
+  "price": 59.99,
+  "tags": [
+    "cloud",
+    "AWS",
+    "azure",
+    "basics"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.2,
+  "createdAt": {
+    "$date": "2023-01-28T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-01T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbdd"
+  },
+  "courseId": 15,
+  "title": "AWS Certified Solutions Architect",
+  "description": "Prepare for AWS certification with hands-on labs and examples.",
+  "instructorId": 19,
+  "category": "Cloud",
+  "difficultyLevel": "intermidiate",
+  "duration": 35,
+  "price": 129.99,
+  "tags": [
+    "AWS",
+    "cloud",
+    "certification"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.6,
+  "createdAt": {
+    "$date": "2023-02-10T09:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-20T14:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bbde"
+  },
+  "courseId": 16,
+  "title": "Cybersecurity Fundamentals",
+  "description": "Introduction to cybersecurity concepts and practices.",
+  "instructorId": 20,
+  "category": "Security",
+  "difficultyLevel": "beginner",
+  "duration": 25,
+  "price": 79.99,
+  "tags": [
+    "cybersecurity",
+    "security",
+    "basics"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 4.4,
+  "createdAt": {
+    "$date": "2023-03-01T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-01T15:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c7e4cd8c2d8fd373bc6b"
+  },
+  "courseId": 17,
+  "title": "Advanced Python Programming",
+  "description": "Deep dive into Python for real-world applications.",
+  "instructorId": 17,
+  "category": "Programming",
+  "difficultyLevel": "advanced",
+  "duration": 40,
+  "price": 199.99,
+  "tags": [
+    "python",
+    "advanced",
+    "programming",
+    "oop",
+    "data"
+  ],
+  "isPublished": true,
+  "isActive": true,
+  "reviewRate": 0,
+  "createdAt": {
+    "$date": "2025-10-05T18:32:52.983Z"
+  }
+}]

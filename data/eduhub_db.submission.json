@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc36"
+  },
+  "submissionId": 1,
+  "enrollmentId": 1,
+  "assignmentId": 1,
+  "submittedAt": {
+    "$date": "2023-01-05T22:00:00.000Z"
+  },
+  "feedback": "Good work",
+  "grade": 98,
+  "createdAt": {
+    "$date": "2023-01-05T22:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-05T18:36:56.778Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc37"
+  },
+  "submissionId": 2,
+  "enrollmentId": 2,
+  "assignmentId": 1,
+  "submittedAt": {
+    "$date": "2023-01-05T21:30:00.000Z"
+  },
+  "feedback": "Well done",
+  "grade": 90,
+  "createdAt": {
+    "$date": "2023-01-05T21:35:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-05T21:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc38"
+  },
+  "submissionId": 3,
+  "enrollmentId": 1,
+  "assignmentId": 2,
+  "submittedAt": {
+    "$date": "2023-01-06T23:00:00.000Z"
+  },
+  "feedback": "Excellent",
+  "grade": 98,
+  "createdAt": {
+    "$date": "2023-01-06T23:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T23:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc39"
+  },
+  "submissionId": 4,
+  "enrollmentId": 3,
+  "assignmentId": 3,
+  "submittedAt": {
+    "$date": "2023-01-07T20:30:00.000Z"
+  },
+  "feedback": "Good start",
+  "grade": 88,
+  "createdAt": {
+    "$date": "2023-01-07T20:35:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-07T20:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc3a"
+  },
+  "submissionId": 5,
+  "enrollmentId": 2,
+  "assignmentId": 2,
+  "submittedAt": {
+    "$date": "2023-01-06T22:45:00.000Z"
+  },
+  "feedback": "Nice work",
+  "grade": 92,
+  "createdAt": {
+    "$date": "2023-01-06T22:50:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-06T22:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc3b"
+  },
+  "submissionId": 6,
+  "enrollmentId": 4,
+  "assignmentId": 4,
+  "submittedAt": {
+    "$date": "2023-01-08T19:00:00.000Z"
+  },
+  "feedback": "Check styling",
+  "grade": 85,
+  "createdAt": {
+    "$date": "2023-01-08T19:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-08T19:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc3c"
+  },
+  "submissionId": 7,
+  "enrollmentId": 1,
+  "assignmentId": 3,
+  "submittedAt": {
+    "$date": "2023-01-07T21:00:00.000Z"
+  },
+  "feedback": "Good",
+  "grade": 90,
+  "createdAt": {
+    "$date": "2023-01-07T21:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-07T21:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc3d"
+  },
+  "submissionId": 8,
+  "enrollmentId": 5,
+  "assignmentId": 5,
+  "submittedAt": {
+    "$date": "2023-01-09T22:15:00.000Z"
+  },
+  "feedback": "Well implemented",
+  "grade": 93,
+  "createdAt": {
+    "$date": "2023-01-09T22:20:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-09T22:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc3e"
+  },
+  "submissionId": 9,
+  "enrollmentId": 3,
+  "assignmentId": 4,
+  "submittedAt": {
+    "$date": "2023-01-08T21:30:00.000Z"
+  },
+  "feedback": "Good CSS",
+  "grade": 89,
+  "createdAt": {
+    "$date": "2023-01-08T21:35:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-08T21:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc3f"
+  },
+  "submissionId": 10,
+  "enrollmentId": 6,
+  "assignmentId": 6,
+  "submittedAt": {
+    "$date": "2023-01-10T20:45:00.000Z"
+  },
+  "feedback": "Excellent",
+  "grade": 97,
+  "createdAt": {
+    "$date": "2023-01-10T20:50:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T20:50:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc40"
+  },
+  "submissionId": 11,
+  "enrollmentId": 4,
+  "assignmentId": 5,
+  "submittedAt": {
+    "$date": "2023-01-09T21:00:00.000Z"
+  },
+  "feedback": "Nice logic",
+  "grade": 91,
+  "createdAt": {
+    "$date": "2023-01-09T21:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-09T21:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc41"
+  },
+  "submissionId": 12,
+  "enrollmentId": 2,
+  "assignmentId": 6,
+  "submittedAt": {
+    "$date": "2023-01-10T22:00:00.000Z"
+  },
+  "feedback": "Well done",
+  "grade": 94,
+  "createdAt": {
+    "$date": "2023-01-10T22:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-10T22:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc42"
+  },
+  "submissionId": 13,
+  "enrollmentId": 1,
+  "assignmentId": 7,
+  "submittedAt": {
+    "$date": "2023-01-11T20:00:00.000Z"
+  },
+  "feedback": "SQL queries fine",
+  "grade": 96,
+  "createdAt": {
+    "$date": "2023-01-11T20:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-11T20:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc43"
+  },
+  "submissionId": 14,
+  "enrollmentId": 5,
+  "assignmentId": 7,
+  "submittedAt": {
+    "$date": "2023-01-11T21:15:00.000Z"
+  },
+  "feedback": "Great work",
+  "grade": 95,
+  "createdAt": {
+    "$date": "2023-01-11T21:20:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-11T21:20:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc44"
+  },
+  "submissionId": 15,
+  "enrollmentId": 6,
+  "assignmentId": 8,
+  "submittedAt": {
+    "$date": "2023-01-12T20:30:00.000Z"
+  },
+  "feedback": "Correct joins",
+  "grade": 92,
+  "createdAt": {
+    "$date": "2023-01-12T20:35:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-12T20:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc45"
+  },
+  "submissionId": 16,
+  "enrollmentId": 3,
+  "assignmentId": 8,
+  "submittedAt": {
+    "$date": "2023-01-12T19:50:00.000Z"
+  },
+  "feedback": "Well done",
+  "grade": 90,
+  "createdAt": {
+    "$date": "2023-01-12T19:55:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-12T19:55:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc46"
+  },
+  "submissionId": 17,
+  "enrollmentId": 4,
+  "assignmentId": 9,
+  "submittedAt": {
+    "$date": "2023-01-13T22:00:00.000Z"
+  },
+  "feedback": "Good repo setup",
+  "grade": 94,
+  "createdAt": {
+    "$date": "2023-01-13T22:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-13T22:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc47"
+  },
+  "submissionId": 18,
+  "enrollmentId": 5,
+  "assignmentId": 10,
+  "submittedAt": {
+    "$date": "2023-01-14T20:30:00.000Z"
+  },
+  "feedback": "Branches correct",
+  "grade": 93,
+  "createdAt": {
+    "$date": "2023-01-14T20:35:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-14T20:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc48"
+  },
+  "submissionId": 19,
+  "enrollmentId": 1,
+  "assignmentId": 11,
+  "submittedAt": {
+    "$date": "2023-01-15T21:00:00.000Z"
+  },
+  "feedback": "Dockerfile ok",
+  "grade": 95,
+  "createdAt": {
+    "$date": "2023-01-15T21:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-15T21:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c5b4cd8c2d8fd373bc49"
+  },
+  "submissionId": 20,
+  "enrollmentId": 6,
+  "assignmentId": 12,
+  "submittedAt": {
+    "$date": "2023-01-16T22:00:00.000Z"
+  },
+  "feedback": "Compose setup fine",
+  "grade": 96,
+  "createdAt": {
+    "$date": "2023-01-16T22:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-01-16T22:05:00.000Z"
+  }
+}]

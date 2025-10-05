@@ -1,0 +1,50 @@
+{
+    "bsonType": "object",
+    "required": [
+        "lessonId",
+        "courseId",
+        "title",
+        "createdAt",
+        "isActive"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId",
+            "description": "Unique MongoDB identifier for the lesson document."
+        },
+        "lessonId": {
+            "bsonType": "int",
+            "description": "Custom numeric identifier for the lesson."
+        },
+        "courseId": {
+            "bsonType": "int",
+            "description": "Identifier linking this lesson to its parent course."
+        },
+        "title": {
+            "bsonType": "string",
+            "description": "Title of the lesson."
+        },
+        "description": {
+            "bsonType": "string",
+            "description": "Detailed explanation or summary of what the lesson covers."
+        },
+        "assignmentId": {
+            "bsonType": "int",
+            "description": "Optional ID of an assignment linked to this lesson, if applicable."
+        },
+        "isActive": {
+            "bsonType": "bool",
+            "description": "Indicates whether the lesson is active and visible to students."
+        },
+        "createdAt": {
+            "bsonType": "date",
+            "description": "Timestamp indicating when the lesson was created."
+        },
+        "updatedAt": {
+            "bsonType": "date",
+            "description": "Timestamp indicating when the lesson was last updated."
+        }
+    },
+    "additionalProperties": false,
+    "description": "Schema definition for the Lessons collection, representing individual lessons belonging to courses."
+}

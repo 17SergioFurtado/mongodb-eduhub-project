@@ -1,0 +1,50 @@
+{
+    "bsonType": "object",
+    "required": [
+        "submissionId",
+        "enrollmentId",
+        "assignmentId",
+        "submittedAt",
+        "createdAt"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId",
+            "description": "Unique MongoDB identifier for the submission document."
+        },
+        "submissionId": {
+            "bsonType": "int",
+            "description": "Custom numeric identifier for this submission record."
+        },
+        "enrollmentId": {
+            "bsonType": "int",
+            "description": "Identifier linking the submission to the student's enrollment record."
+        },
+        "assignmentId": {
+            "bsonType": "int",
+            "description": "Identifier linking the submission to its corresponding assignment."
+        },
+        "submittedAt": {
+            "bsonType": "date",
+            "description": "Timestamp indicating when the student submitted this assignment."
+        },
+        "feedback": {
+            "bsonType": "string",
+            "description": "Instructor’s comments or feedback on the submission."
+        },
+        "grade": {
+            "bsonType": "int",
+            "description": "Numeric grade or score assigned to this submission."
+        },
+        "createdAt": {
+            "bsonType": "date",
+            "description": "Timestamp when the submission record was created."
+        },
+        "updatedAt": {
+            "bsonType": "date",
+            "description": "Timestamp of the most recent update to this record."
+        }
+    },
+    "additionalProperties": false,
+    "description": "Schema definition for assignment submissions, tracking student work, feedback, and grades."
+}

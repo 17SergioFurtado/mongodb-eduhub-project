@@ -1,0 +1,1124 @@
+[{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc4a"
+  },
+  "enrollmentId": 1,
+  "courseId": 1,
+  "studentId": 1,
+  "isActive": false,
+  "completionStatus": "in_progress",
+  "trackProgress": 20,
+  "attendance": [
+    {
+      "lessonId": 1,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-01T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 2,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-20T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-10-05T18:37:23.001Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc4b"
+  },
+  "enrollmentId": 2,
+  "courseId": 2,
+  "studentId": 2,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 50,
+  "attendance": [
+    {
+      "lessonId": 3,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-02T11:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 4,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-05T11:00:00.000Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-22T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T12:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc4c"
+  },
+  "enrollmentId": 3,
+  "courseId": 3,
+  "studentId": 3,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 5,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 6,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-25T10:30:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-25T10:30:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc4d"
+  },
+  "enrollmentId": 4,
+  "courseId": 1,
+  "studentId": 4,
+  "isActive": true,
+  "completionStatus": "completed",
+  "trackProgress": 100,
+  "attendance": [
+    {
+      "lessonId": 1,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-08-28T09:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 2,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-08-30T09:30:00.000Z"
+      }
+    }
+  ],
+  "completionDate": {
+    "$date": "2023-08-31T12:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-08-20T12:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-31T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc4e"
+  },
+  "enrollmentId": 5,
+  "courseId": 4,
+  "studentId": 5,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 30,
+  "attendance": [
+    {
+      "lessonId": 7,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-03T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 8,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-23T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-03T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc4f"
+  },
+  "enrollmentId": 6,
+  "courseId": 2,
+  "studentId": 6,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 40,
+  "attendance": [
+    {
+      "lessonId": 3,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-04T09:30:00.000Z"
+      }
+    },
+    {
+      "lessonId": 4,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-22T09:15:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-04T09:35:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc50"
+  },
+  "enrollmentId": 7,
+  "courseId": 5,
+  "studentId": 7,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 9,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 10,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-24T10:45:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-24T10:45:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc51"
+  },
+  "enrollmentId": 8,
+  "courseId": 3,
+  "studentId": 8,
+  "isActive": true,
+  "completionStatus": "completed",
+  "trackProgress": 100,
+  "attendance": [
+    {
+      "lessonId": 5,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-08-29T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 6,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-01T10:30:00.000Z"
+      }
+    }
+  ],
+  "completionDate": {
+    "$date": "2023-09-02T12:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-08-25T10:35:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc52"
+  },
+  "enrollmentId": 9,
+  "courseId": 6,
+  "studentId": 9,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 15,
+  "attendance": [
+    {
+      "lessonId": 11,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-05T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 12,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-26T09:50:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc53"
+  },
+  "enrollmentId": 10,
+  "courseId": 4,
+  "studentId": 10,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 7,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 8,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-23T11:15:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-23T11:15:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc54"
+  },
+  "enrollmentId": 11,
+  "courseId": 5,
+  "studentId": 11,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 60,
+  "attendance": [
+    {
+      "lessonId": 9,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-06T09:45:00.000Z"
+      }
+    },
+    {
+      "lessonId": 10,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-08T10:00:00.000Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-24T10:50:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-08T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc55"
+  },
+  "enrollmentId": 12,
+  "courseId": 6,
+  "studentId": 12,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 25,
+  "attendance": [
+    {
+      "lessonId": 11,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-07T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 12,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-26T09:55:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-07T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc56"
+  },
+  "enrollmentId": 13,
+  "courseId": 7,
+  "studentId": 13,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 13,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 14,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-27T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-27T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc57"
+  },
+  "enrollmentId": 14,
+  "courseId": 7,
+  "studentId": 14,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 45,
+  "attendance": [
+    {
+      "lessonId": 13,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-08T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 14,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-27T11:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-08T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc58"
+  },
+  "enrollmentId": 15,
+  "courseId": 8,
+  "studentId": 15,
+  "isActive": true,
+  "completionStatus": "completed",
+  "trackProgress": 100,
+  "attendance": [
+    {
+      "lessonId": 15,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-08-30T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 16,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-01T10:30:00.000Z"
+      }
+    }
+  ],
+  "completionDate": {
+    "$date": "2023-09-02T12:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-08-28T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc59"
+  },
+  "enrollmentId": 16,
+  "courseId": 8,
+  "studentId": 16,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 30,
+  "attendance": [
+    {
+      "lessonId": 15,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-09T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 16,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-28T12:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-09T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc5a"
+  },
+  "enrollmentId": 17,
+  "courseId": 9,
+  "studentId": 6,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 17,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 18,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-29T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-29T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc5b"
+  },
+  "enrollmentId": 18,
+  "courseId": 9,
+  "studentId": 8,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 50,
+  "attendance": [
+    {
+      "lessonId": 17,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-10T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 18,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-29T11:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-10T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc5c"
+  },
+  "enrollmentId": 19,
+  "courseId": 10,
+  "studentId": 13,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 19,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 20,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-30T10:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-30T10:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc5d"
+  },
+  "enrollmentId": 20,
+  "courseId": 10,
+  "studentId": 21,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 35,
+  "attendance": [
+    {
+      "lessonId": 19,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-11T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 20,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-30T10:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-11T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc5e"
+  },
+  "enrollmentId": 21,
+  "courseId": 11,
+  "studentId": 21,
+  "isActive": true,
+  "completionStatus": "completed",
+  "trackProgress": 100,
+  "attendance": [
+    {
+      "lessonId": 21,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-08-31T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 22,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-02T10:30:00.000Z"
+      }
+    }
+  ],
+  "completionDate": {
+    "$date": "2023-09-03T12:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-08-31T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-03T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc5f"
+  },
+  "enrollmentId": 22,
+  "courseId": 11,
+  "studentId": 22,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 40,
+  "attendance": [
+    {
+      "lessonId": 21,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-12T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 22,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-08-31T12:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-12T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc60"
+  },
+  "enrollmentId": 23,
+  "courseId": 12,
+  "studentId": 23,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 23,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 24,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-01T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-01T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc61"
+  },
+  "enrollmentId": 24,
+  "courseId": 12,
+  "studentId": 24,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 50,
+  "attendance": [
+    {
+      "lessonId": 23,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-13T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 24,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-01T11:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-13T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc62"
+  },
+  "enrollmentId": 25,
+  "courseId": 13,
+  "studentId": 25,
+  "isActive": true,
+  "completionStatus": "completed",
+  "trackProgress": 100,
+  "attendance": [
+    {
+      "lessonId": 25,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-01T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 26,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-03T10:30:00.000Z"
+      }
+    }
+  ],
+  "completionDate": {
+    "$date": "2023-09-04T12:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-09-01T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-04T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc63"
+  },
+  "enrollmentId": 26,
+  "courseId": 13,
+  "studentId": 26,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 30,
+  "attendance": [
+    {
+      "lessonId": 25,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-14T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 26,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-01T12:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-14T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc64"
+  },
+  "enrollmentId": 27,
+  "courseId": 14,
+  "studentId": 27,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 27,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 28,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-02T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-02T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc65"
+  },
+  "enrollmentId": 28,
+  "courseId": 14,
+  "studentId": 28,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 55,
+  "attendance": [
+    {
+      "lessonId": 27,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-15T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 28,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-02T11:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-15T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc66"
+  },
+  "enrollmentId": 29,
+  "courseId": 15,
+  "studentId": 29,
+  "isActive": true,
+  "completionStatus": "completed",
+  "trackProgress": 100,
+  "attendance": [
+    {
+      "lessonId": 29,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-02T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 30,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-04T10:30:00.000Z"
+      }
+    }
+  ],
+  "completionDate": {
+    "$date": "2023-09-05T12:00:00.000Z"
+  },
+  "createdAt": {
+    "$date": "2023-09-02T12:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-05T12:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc67"
+  },
+  "enrollmentId": 30,
+  "courseId": 15,
+  "studentId": 30,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 40,
+  "attendance": [
+    {
+      "lessonId": 29,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-16T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 30,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-02T12:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-16T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc68"
+  },
+  "enrollmentId": 31,
+  "courseId": 16,
+  "studentId": 31,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 31,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    },
+    {
+      "lessonId": 32,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-03T11:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-03T11:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c75acd8c2d8fd373bc69"
+  },
+  "enrollmentId": 32,
+  "courseId": 16,
+  "studentId": 32,
+  "isActive": true,
+  "completionStatus": "in_progress",
+  "trackProgress": 45,
+  "attendance": [
+    {
+      "lessonId": 31,
+      "hasFinished": true,
+      "attendedAt": {
+        "$date": "2023-09-17T10:00:00.000Z"
+      }
+    },
+    {
+      "lessonId": 32,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:30:27.449Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2023-09-03T11:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2023-09-17T10:05:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68e2c7facd8c2d8fd373bc6c"
+  },
+  "enrollmentId": 33,
+  "courseId": 21,
+  "studentId": 31,
+  "isActive": true,
+  "completionStatus": "not_started",
+  "trackProgress": 0,
+  "attendance": [
+    {
+      "lessonId": 1,
+      "hasFinished": false,
+      "attendedAt": {
+        "$date": "2025-10-05T18:33:14.750Z"
+      }
+    }
+  ],
+  "completionDate": null,
+  "createdAt": {
+    "$date": "2025-10-05T18:33:14.750Z"
+  }
+}]
